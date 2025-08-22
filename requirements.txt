@@ -2,10 +2,6 @@ pandas
 numpy
 matplotlib
 seaborn
-ipykernel
-openpyxl
 scikit-learn
-statsmodels
-xgboosts
 joblib
 streamlit
