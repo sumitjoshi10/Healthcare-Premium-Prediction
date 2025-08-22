@@ -9,6 +9,11 @@ It provides an interactive interface where users can input their details and rec
 ![App Demo](image.png)
 
 ---
+## 🌐 Live Demo
+Try out the app here:  
+👉 [Health Premium Prediction App](https://healthcare-premium-prediction-dzscas4rhzr8ng2gtj5xtx.streamlit.app/)
+
+---
 ## 🚀 Features
 - Collects user details such as:
   - Age, Dependants, Income
