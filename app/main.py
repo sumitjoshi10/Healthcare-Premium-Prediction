@@ -1,6 +1,7 @@
 import streamlit as st
 from predit_helper import predict
 
+
 st.title("Health Premium Prediction APP")
 
 categorical_options = {
@@ -55,18 +56,18 @@ with row4[2]:
 
 # Create a dictionary for input values
 input_dict = {
-    'Age': age,
-    'Number of Dependants': number_of_dependants,
-    'Income in Lakhs': income_lakhs,
-    'Genetical Risk': genetical_risk,
-    'Insurance Plan': insurance_plan,
-    'Employment Status': employment_status,
-    'Gender': gender,
-    'Marital Status': marital_status,
-    'BMI Category': bmi_category,
-    'Smoking Status': smoking_status,
-    'Region': region,
-    'Medical History': medical_history
+    'age': age,
+    'number_of_dependants': number_of_dependants,
+    'income_lakhs': income_lakhs,
+    'genetical_risk': genetical_risk,
+    'insurance_plan': insurance_plan,
+    'employment_status': employment_status,
+    'gender': gender,
+    'marital_status': marital_status,
+    'bmi_category': bmi_category,
+    'smoking_status': smoking_status,
+    'region': region,
+    'medical_history': medical_history
 }
 
 # Button to make prediction
