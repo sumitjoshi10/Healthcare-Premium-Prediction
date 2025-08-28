@@ -6,7 +6,7 @@ It provides an interactive interface where users can input their details and rec
 ---
 
 ## 📸 App Demo
-![App Demo](image.png)
+![App Demo](snapshot/image.png)
 
 ---
 ## 🌐 Live Demo
