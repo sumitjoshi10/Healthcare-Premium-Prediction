@@ -24,18 +24,27 @@ Try out the app here:
 - Clean UI with **4 rows of input fields** arranged neatly in columns.
 - Predicts premium using a trained ML model (via `predit_helper.py`).
 - Displays results instantly.
+- Supports two models based on age group:  
+  - Age 18–25  
+  - Age 26 and above
 
 ---
 
 ## 📂 Project Structure
 ```
-├── app/
-│   ├── main.py              # Streamlit app (this file)
-│   ├── predit_helper.py     # Contains predict() function
-│   ├── artifacts/           # Trained model files (joblib/pickle)
+health-premium-prediction/
 │
-├── README.md                # Project documentation
-├── requirements.txt         # Python dependencies
+├── app/
+| ├── artifacts/ # Trained model files (joblib/pickle)
+│ ├── main.py # Streamlit app
+│ ├── predict_helper.py # Contains predict() function
+│ 
+│
+├── experiment/ # Notebook experiments, data analysis, model training logs
+│ └── *.ipynb
+│
+├── README.md # Project documentation
+├── requirements.txt # Python dependencies
 ```
 
 ---
@@ -69,13 +78,7 @@ streamlit run app/main.py
 
 ## 🧠 Model Details
 - The model is stored in `artifacts/` and loaded via `predit_helper.py`.
-- `predit_helper.py` should implement:
-  ```python
-  def predict(input_dict):
-      # Preprocess inputs
-      # Load trained model
-      # Return prediction
-  ```
+
 
 ---
 
